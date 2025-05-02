@@ -9,5 +9,3 @@ def index():
     global visitors
     visitors += 1
     return f"<h1>Hallo, verden!</h1> <p>Du er besøkende nummer {visitors}.</p>"
-
-app.run()
